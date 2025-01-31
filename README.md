@@ -19,6 +19,7 @@ The User Management App is a React-based web application that allows users to:
 To set up and run the project locally, follow these steps:
 ### 1️⃣ `Clone the Repository`
 `https://github.com/Anshgupta456/user-management-app.git`
+
 `cd user-management-app`
 
 ### 2️⃣ `Install Dependencies`
@@ -26,6 +27,7 @@ Run `npm install`
 
 ### 3️⃣ `Start the Development Server`
 Run `npm start`
+
 The app will be accessible at http://localhost:3000
 
 ## 📌 Features
@@ -37,18 +39,31 @@ The app will be accessible at http://localhost:3000
 
 ## 📂 Project Structure 
 user-management-app/
+
 │── src/
+
 │   ├── components/
+
 │   │   ├── UserList.js
+
 │   │   ├── UserInfo.js
+
 │   ├── styles/
+
 │   │   ├── App.css
+
 │   │   ├── UserList.css
+
 │   │   ├── UserInfo.css
+
 │   ├── App.js
+
 │   ├── index.js
+
 │── public/
+
 │── package.json
+
 │── README.md
 
 ## 🔗 API Used
