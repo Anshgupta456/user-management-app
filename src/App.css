@@ -1,0 +1,7 @@
+body {
+  font-family: Georgia, serif;
+  background: linear-gradient(to top, #076585, #fff);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}

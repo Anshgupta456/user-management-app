@@ -1,0 +1,115 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center; 
+}
+
+h1{
+    color: #001e64;
+    margin: 20px;
+    padding-top: 30px;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.refresh-button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loading{
+    text-align: center;
+    font-size: x-large;
+    color: #091a43;
+    border: 0;
+    padding: 20px 20px;
+    margin: 20px;
+}
+.error{
+    color: red;
+    font-size: x-large;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+.user-table th {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+    color: #001e64;
+}
+
+.user-table td {
+    border: 1px solid #000000;
+    padding: 8px 10px;
+    text-align: left;
+    color: #000000;
+}
+
+
+.user-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagination button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    color: black;
+}
+
+.hidden{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .bar {
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 5px;
+      padding: 10px;
+    }
+    .user-table th, .user-table td {
+        padding: 10px;
+        font-size: 14px;
+        margin: 5px;
+      }
+}
